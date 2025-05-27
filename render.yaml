@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 services:
   - type: web
     name: crypto-bot
@@ -6,12 +5,3 @@ services:
     plan: free
     buildCommand: ""
     startCommand: python main.py
-=======
-services:
-  - type: web
-    name: crypto-bot
-    env: python
-    plan: free
-    buildCommand: ""
-    startCommand: python main.py
->>>>>>> c6aaeb7fe75b8917757ce72b877b8003386fa0f7
